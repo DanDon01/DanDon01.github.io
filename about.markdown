@@ -1,18 +1,26 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: default
+title: About Me
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About Me
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hi, I'm Dan! 👋  
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- **Engineer and Tech Enthusiast**: I love building electronic projects, coding scripts, and experimenting with AI.  
+- **Passionate About**: Raspberry Pi, Arduino, 3D printing, and Python automation.  
+- **Current Projects**:  
+   - Creating an arcade-style desk with custom electronics.  
+   - Adding AI to everything!
+     
 
+When I'm not coding, you'll find me exploring new gadgets, scouring X for all things AI as The AI TechnoKing 🍺, or brainstorming my next big project. 
 
-[jekyll-organization]: https://github.com/jekyll
+---
+
+### My Skills
+- **Programming Languages**: Python, C++, JavaScript  
+- **Tools**: Visual Studio Code, Git, Thonny, Cursor, Arduino
+- **Hardware**: Raspberry Pi 5, Arduino Uno, Teensy 4.1, 3D Printer, soldering iron. 
+
+Got any cool ideas? Reachout. 
