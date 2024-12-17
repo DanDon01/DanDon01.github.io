@@ -1,8 +1,18 @@
 ---
 layout: default
-title: Welcome to Dan's Blog
+title: Welcome to DanDon01's Blog
 ---
 
-# Hello, World!
+# Welcome to My GitHub Blog! 
 
-This is my first blog post on GitHub Pages.
+Here’s the latest update:
+
+{% for post in site.posts limit:1 %}
+## [{{ post.title }}]({{ post.url }})
+**{{ post.date | date: "%B %d, %Y" }}**  
+{{ post.excerpt }}
+{% endfor %}
+
+---
+
+[View All Posts →](archive)
