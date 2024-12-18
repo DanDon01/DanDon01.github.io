@@ -4,15 +4,16 @@ title: Welcome to My Blog
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <pre style="font-size: 1rem; line-height: 1.2; color: #bd93f9;">
-      __        __   _                            _     
-      \ \      / /__| | ___ ___  _ __ ___   ___  | |___ 
-       \ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \ | / __|
-        \ V  V /  __/ | (_| (_) | | | | | |  __/ | \__ \
-         \_/\_/ \___|_|\___\___/|_| |_| |_|\___|_|_|___/
+  <pre style="font-size: 1rem; line-height: 1.2; color:rgb(228, 248, 154); margin: 0; padding: 0; border: none; background: none;">
+    
+      __        __   _                             _     
+      \ \      / /__| | ___ ___  _ __ ___   ___   | |
+       \ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \  |_|
+        \ V  V /  __/ | (_| (_) | | | | | |  __/   _
+         \_/\_/ \___|_|\___\___/|_| |_| |_|\___|  |_|
   </pre>
   <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 0.5rem; color: #bd93f9;">
-    Welcome to My Tech Blog
+    ... to My GitHub Tech Blog
   </h1>
   <p style="font-size: 1.2rem; color: #b3b3b3;">
     Sharing my projects, coding adventures, and everything I learn along the way.
@@ -22,7 +23,7 @@ title: Welcome to My Blog
 <hr style="border: 0; height: 1px; background: #555; margin-bottom: 2rem;">
 
 <div style="text-align: left;">
-  <h2 style="font-size: 2rem; color: #bd93f9;">Latest Blog Post</h2>
+  <h2 style="font-size: 2rem; color:rgb(165, 105, 248);">Latest Blog Post</h2>
 
   {% for post in site.posts limit:1 %}
     <div style="border-left: 5px solid #bd93f9; padding-left: 1rem; margin-bottom: 1rem;">
