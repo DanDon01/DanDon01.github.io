@@ -12,6 +12,12 @@ description: >-
 baseurl: "" # Leave blank for root URL
 url: "https://DanDon01.github.io" # Your live site URL
 
+header_pages:
+  - index.md       # Home page
+  - projects.md    # Projects page
+  - archive.md     # Blog archive
+  - about.md       # About page
+
 # Social Links & Contact
 github_username: DanDon01
 rss: true # Enables RSS feed link for readers
@@ -45,17 +51,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
-
-# Navigation (Custom Menu Links)
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Projects"
-    url: "/projects"
-  - title: "Blog Archive"
-    url: "/archive"
-  - title: "About"
-    url: "/about"
 
 # Exclude Unnecessary Files
 exclude:
