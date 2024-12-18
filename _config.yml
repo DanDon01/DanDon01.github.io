@@ -1,47 +1,50 @@
-# Welcome to DanDon01's Blog Config
-# =================================
-
+# ================================
+# DanDon01's Tech Blog Configuration
+# ================================
 
 # Site Settings
-title: "DanDon01's Tech Blog"
-email: ""
+title: "DanDon01's GitHub Blog"
+email: "" # Optional, or use a contact form instead.
 description: >-
-  A space where I share my projects, thoughts, and experiments in tech, 
-  coding, and life. Follow along for cool Python scripts and electronics builds.
+  Sharing my projects, experiments, and insights into the world of 
+  technology, coding, and electronics. Follow along for Python scripts, 
+  Raspberry Pi projects, and 3D printing builds.
 baseurl: "" # Leave blank for root URL
-url: "https://DanDon01.github.io" # Live site URL
+url: "https://DanDon01.github.io" # Your live site URL
 
-# Social Links
-X_username: AI_TechnoKing
-github_username:  DanDon01
-linkedin_username: dandon01
-
-# Theme Settings
-theme: minima
-minima:
-  skin: dark
-
-# Customisation
-show_excerpts: true # Show post previews on homepage
-paginate: 5 # Number of posts per page
-
-# Build Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-
-# SEO and Site Metadata
-author: "DanDon01"
-keywords: "tech blog, Python projects, 3D printing, Raspberry Pi, coding tutorials"
-language: "en"
-
-# Header/Footer Customisation
+# Social Links & Contact
+github_username: DanDon01
+rss: true # Enables RSS feed link for readers
 footer_links:
   - title: "GitHub"
     url: "https://github.com/DanDon01"
     icon: "github"
+  - title: "RSS Feed"
+    url: "/feed.xml"
+    icon: "rss"
+  - title: "Email Me"
+    url: "mailto:contact@dandon01.dev"
+    icon: "mail"
 
+# Theme Settings
+theme: minima
+minima:
+  skin: dark # Enable dark theme
+
+# Blog Customisation
+show_excerpts: true # Show previews of posts on the homepage
+paginate: 5 # Number of posts to display per page
+
+# SEO and Metadata
+author: "DanDon01"
+keywords: >-
+  Python projects, Raspberry Pi, 3D printing, coding blog, tech tutorials,
+  electronics, automation
+language: "en"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
 
 # Navigation (Custom Menu Links)
 navigation:
@@ -49,23 +52,28 @@ navigation:
     url: "/"
   - title: "Projects"
     url: "/projects"
+  - title: "Blog Archive"
+    url: "/archive"
   - title: "About"
     url: "/about"
-  - title: "Contact"
-    url: "/contact"
 
 # Exclude Unnecessary Files
 exclude:
   - .sass-cache/
   - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
   - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
 
-# A Techy Touch: Build Information
+# Footer Text (Optional custom note)
+footer_text: >-
+  Built with ❤️ using GitHub Pages and Jekyll. Powered by coffee and curiosity.
+
+footer_links:
+  - title: "RSS Feed"
+    url: "/feed.xml"
+    icon: "rss"
+
+# Extra Touch: Build Timestamp for Debugging
 build_timestamp: "{{ site.time | date: '%Y-%m-%d %H:%M:%S' }}"
