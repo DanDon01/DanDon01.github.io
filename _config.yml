@@ -13,7 +13,6 @@ baseurl: "" # Leave blank for root URL
 url: "https://DanDon01.github.io" # Your live site URL
 
 header_pages:
-  - index.md       # Home page
   - projects.md    # Projects page
   - archive.md     # Blog archive
   - about.md       # About page
