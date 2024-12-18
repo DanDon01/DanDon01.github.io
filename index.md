@@ -5,7 +5,7 @@ title: Welcome to My Blog
 
 <div style="text-align: center; margin-bottom: 2rem;">
   <pre style="font-size: 1rem; line-height: 1.2; color:rgb(228, 248, 154); margin: 0; padding: 0; border: none; background: none;">
-      __        __   _                             _     
+       __        __   _                             _     
       \ \      / /__| | ___ ___  _ __ ___   ___   | |
        \ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \  |_|
         \ V  V /  __/ | (_| (_) | | | | | |  __/   _
