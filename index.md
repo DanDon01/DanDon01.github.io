@@ -3,6 +3,9 @@ layout: default
 title: Welcome to My Blog
 ---
 
+<body class="minima-dark">
+<!-- Add the class "minima-dark" to the body tag to enable dark mode -->
+
 <div style="text-align: center; margin-bottom: 2rem;">
   <pre style="font-size: 1rem; line-height: 1.2; color:rgb(228, 248, 154); margin: 0; padding: 0; border: none; background: none;">
        __        __   _                             _     
@@ -42,3 +45,4 @@ title: Welcome to My Blog
     View All Posts →
   </a>
 </div>
+</body>

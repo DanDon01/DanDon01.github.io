@@ -34,7 +34,7 @@ footer_links:
 # Theme Settings
 theme: minima
 minima:
-  skin: dark # Enable dark theme
+  skin: dark # Ensure dark theme is enabled
 
 # Blog Customisation
 show_excerpts: true # Show previews of posts on the homepage
