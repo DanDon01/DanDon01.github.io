@@ -5,14 +5,13 @@ title: Welcome to My Blog
 
 <div style="text-align: center; margin-bottom: 2rem;">
   <pre style="font-size: 1rem; line-height: 1.2; color:rgb(228, 248, 154); margin: 0; padding: 0; border: none; background: none;">
-    
       __        __   _                             _     
       \ \      / /__| | ___ ___  _ __ ___   ___   | |
        \ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \  |_|
         \ V  V /  __/ | (_| (_) | | | | | |  __/   _
          \_/\_/ \___|_|\___\___/|_| |_| |_|\___|  |_|
   </pre>
-  <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 0.5rem; color: #bd93f9;">
+  <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 0.5rem; color:rgb(241, 108, 103);">
     ... to My GitHub Tech Blog
   </h1>
   <p style="font-size: 1.2rem; color: #b3b3b3;">
